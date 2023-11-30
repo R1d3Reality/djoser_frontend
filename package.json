@@ -1,0 +1,27 @@
+{
+  "name": "djoser_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.13.6",
+    "@nextcss/reset": "^0.2.4-beta",
+    "module": "^1.2.5",
+    "next": "13.5.4",
+    "normalize.css": "^8.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-instantsearch-dom": "^6.40.4",
+    "reset.css": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "sass": "^1.69.4"
+  }
+}

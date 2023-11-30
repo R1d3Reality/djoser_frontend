@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 50px;
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+  width: 100%;
+  max-width: 768px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.nav-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list-item-img {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=productList.css.map */

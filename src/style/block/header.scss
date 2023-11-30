@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  height: 75px;
+  margin: 0 auto;
+  gap: 20px;
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 205px;
+    height: 65px;
+  }
+
+  &-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    a {
+      color: #F6BA00
+    }
+
+    &-element {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+  }
+}

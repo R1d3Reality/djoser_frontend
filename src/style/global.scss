@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
+@import "block/hero";
+@import "block/header";
+@import "block/productlist";
+@import "block/slug";
+@import "block/itemlist";
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  border: black 1px solid;
+
+  &-input {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+}
+

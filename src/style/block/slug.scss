@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1080px;
+  margin: 7% auto;
+  gap: 20px;
+
+  &-img {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 580px;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: start;
+  gap: 30px;
+
+  &-title {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+  }
+
+  &-text {
+    font-size: 1.3em;
+  }
+}
